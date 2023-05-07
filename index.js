@@ -77,6 +77,7 @@ var editableData = data
 
 //full customer details
 //Endpoint - http://localhost:8000/hallbooking/customerdetail
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/customerdetail
 
 app.get("/hallbooking/customerdetail",(req,res)=>{
 
@@ -110,6 +111,7 @@ app.get("/hallbooking/customerdetail",(req,res)=>{
 
 //all booked customer details
 //Endpoint - http://localhost:8000/hallbooking/customerlist
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/customerlist
 
 app.get("/hallbooking/customerlist",(req,res)=>{
 
@@ -140,6 +142,7 @@ app.get("/hallbooking/customerlist",(req,res)=>{
 
 //all booked room details
 //Endpoint - http://localhost:8000/hallbooking/roomlist
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/roomlist
 
 app.get("/hallbooking/roomlist",(req,res)=>{
 
@@ -171,6 +174,7 @@ app.get("/hallbooking/roomlist",(req,res)=>{
 
 //Creating a room
 //Endpoint - http://localhost:8000/hallbooking/createroom
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/createroom
 
 app.post("/hallbooking/createroom",(req,res)=>{
     try {
@@ -196,6 +200,7 @@ app.post("/hallbooking/createroom",(req,res)=>{
 
 //Booking a room
 //Endpoint - http://localhost:8000/hallbooking/bookingroom
+//Deplayed URL - https://hall-booking-api-y7uk.onrender.com/hallbooking/bookingroom
 
 app.put("/hallbooking/bookingroom",(req,res)=>{
     try {
